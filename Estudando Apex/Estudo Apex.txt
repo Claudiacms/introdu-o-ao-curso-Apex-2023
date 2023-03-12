@@ -1,0 +1,26 @@
+Com o APEX (de pronúncia ā'pěks) é possível criar uma aplicação que ao ser acessada se rearranja da melhor maneira possível dependendo do tamanho da tela do dispositivo. As aplicações geradas pelo APEX são acessadas apenas por meio de um browser. Não é gerado nativamente um app para ser disponibilizado em lojas de aplicativos! O app nativo para celular é possível de se fazer apenas com tecnologias que encapsulam o código web gerado pelo APEX, mas não faz parte do escopo deste treinamento.
+
+O APEX é a ferramenta utilizada no Tribunal de Contas da União (TCU) para o desenvolvimento descentralizado de sistemas em que as áreas de negócios resolvem suas necessidades desenvolvendo soluções sob orientação da Secretaria de Soluções de TI.
+
+Vantagens 
+As principais vantagens da utilização do APEX são:
+
+Baixa curva de aprendizado;
+Sem custo para instalação no banco de dados Oracle;
+Fácil integração com outros esquemas do banco de dados corporativo;
+Desenvolvimento rápido de aplicações web responsivas;
+Aderente às principais normas de acessibilidade;
+Flexível, permitindo aplicações simples e complexas;
+Ferramenta low code, ou seja, de pouco código; e
+Unica ferramenta necessária para o desenvolvimento é um browser, tal como Chrome ou Firefox.
+
+O APEX é altamente integrado aos dados locais do banco de dados Oracle em que se encontra, mas é possível acessar outras bases por meio de:
+
+Database link;
+Web services; ou
+REST Enabled SQL*
+
+Muitos aplicativos APEX acessam informações corporativas/centralizadas no banco de dados Oracle por meio de views (somente para leitura), tais como, dados de servidores, unidades e processos. Entretanto, conforme dito e apresentado na figura acima, não é autorizada a escrita de dados corporativos diretamente nas tabelas, mas pode-se utilizar webservices para a gravação de dados no esquema corporativo.
+
+
+ATENÇÃO: Nunca crie tabelas em seu esquema local para armazenar novamente informações que já existam na base corporativa!!! Solicite o acesso a esses dados, tais como servidores, unidades, processos, etc.

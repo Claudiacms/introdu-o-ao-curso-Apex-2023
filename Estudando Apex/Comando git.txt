@@ -1,0 +1,44 @@
+git add .: Gravando alterações
+
+git status: verifica o status 
+
+git diff: verifica mudanças
+
+git commit -m "mensagem": armazena conteúdo atual depois de ter feito o git add
+
+git commit -a -m "mensagem": Para commitar também os arquivos versionados mesmo não estando no Stage basta adicionar o parâmetro -a
+
+git reset: desfazendo as coisas 
+
+git reset --hard HEAD~1: para voltar ao último commit:
+
+git reset --soft HEAD~1: Para voltar ao último commit e mantém os últimos arquivos no Stage:
+
+git reflog: recuperando commit apagado pelo git reset, para visualizar
+ git merge {hash}
+
+git rm: removendo arquivos 
+
+git rm -f {arquivo}: Se você modificou o arquivo e já o adicionou na área de seleção, você deve forçar a remoção com a opção -f. Essa é uma funcionalidade de segurança para prevenir remoções acidentais de dados que ainda não foram gravados em um snapshot e não podem ser recuperados do Git.
+
+git mv: movendo os arquivos 
+
+git mv arquivo_origem arquivo_destino: Se você quiser renomear um arquivo no Git, você pode fazer isso com  git mv arquivo_origem arquivo_destino funciona.
+
+git branch: Um branch no Git é simplesmente um leve ponteiro móvel para um dos commits.
+
+git branch testing: Isso cria um novo ponteiro para o mesmo commit em que você está no momento.
+
+git checkout testing: Para mudar para um branch existente, você executa o comando git checkout. Vamos mudar para o novo branch testing.
+
+git checkout: mudando de Branch
+
+git checkout -b {nome_da_branch}: Com o git checkout você pode mudar de branch, caso a branch ainda não exista você poderá passar o parâmetro -b para criar.
+
+Comandos git: https://comandosgit.github.io/
+
+
+
+
+
+ 
