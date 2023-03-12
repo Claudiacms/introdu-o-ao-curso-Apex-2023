@@ -1,3 +1,19 @@
+git clone https://github.com/Claudiacms/introdu-o-ao-curso-Apex-2023.git
+
+cd introdu-o-ao-curso-Apex-2023/
+ 
+git status
+
+git status 
+
+git add .
+
+git status 
+git commit -m "inclusão de anotações do curso Apex"
+
+git push origin main
+-----------------------------------------------
+
 git add .: Gravando alterações
 
 git status: verifica o status 

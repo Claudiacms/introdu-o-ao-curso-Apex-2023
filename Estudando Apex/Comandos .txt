@@ -1,37 +1,13 @@
- git clone https://github.com/Claudiacms/dio-desafio-github-primeiro-repositorio.git
+Links úteis:
 
-cd dio-desafio-github-primeiro-repositorio/
-
-git status
-
-git add .
-
-git status
-
-gi
-
-git status 
-
-git config --global user.email
-
-git config --global user.name "Claudiacms"
-git config --global user.email claudiacmsousa@gmail.com
-
- git commit -m "inclusão das anotações do curso de Git/GitHub"
-
-git status
-
-
-git add 
-
-git status
-
-git
-
-lsgit
-
-git commit -m "inclusão Estudando Apex"
-
-git clone https://github.com/Claudiacms/introdu-o-ao-curso-Apex-2023.gitcd
+https://apex.oracle.com/pt-br/platform/
+https://apex.oracle.com/pt-br/learn/getting-started/
+https://apex.oracle.com/pt-br/solutions/use-cases/
+https://apex.oracle.com/pt-br/learn/documentation/
+https://apex.oracle.com/pt-br/learn/training/
+https://apex.oracle.com/pt-br/learn/tutorials/
+https://apex.oracle.com/pt-br/learn/books/
+https://apex.oracle.com/pt-br/learn/videos/
+https://apex.oracle.com/pt-br/learn/resources/
 
 
